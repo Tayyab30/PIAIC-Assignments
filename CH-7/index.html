@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+    <form action="#">
+        <fieldset>
+            <legend>Your Details:</legend>
+            
+            <div>
+                <label for="name">Name:</label>
+                <input id="name" type="text"/>
+            </div>
+            <br/>
+
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email"/>
+            </div>
+
+        </fieldset>
+        <br/>
+
+        <fieldset>
+            <legend>Your Review:</legend>
+            <br/>
+            <label for="country">How did you hear about us?</label>
+            <select name="country" id="country">
+                <option value="Google">Google</option>
+                <option value="Google">Mozilla</option>
+                <option value="Google">Amezon</option>
+            </select>
+            <br/>
+            <br/>
+
+            <label for="review">Would you visit again?</label>
+            <div id="review">
+                <input type="radio" name="yes" id="yes"/>
+                <label for="yes">Yes</label>
+                <input type="radio" name="no" id="no"/>
+                <label for="no">No</label>
+                <input type="radio" name="maybe" id="maybe"/>
+                <label for="maybe">Maybe</label>
+            </div>
+            <br/>
+
+            <label for="comments">Comments:</label> 
+            <br/>
+            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+            <br/>
+            <input type="checkbox" name="updates" checked='checked' id="updates">
+            <label for="updates">Sign me up for email updates</label>
+            <br/>
+            <br/>
+            <input type="button" value="Submit review"/>
+        </fieldset>
+    </form>
+</body>
+</html>
