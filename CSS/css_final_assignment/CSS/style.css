@@ -72,6 +72,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+/* our services */
 .adv-card{
     display: flex;
     justify-content: center;
@@ -80,12 +81,14 @@
     height: 100px;
     border-radius: 100%;
     margin: auto;
-    margin-top: -20%;
+    /* margin-top: -20px !important; */
+    background-color:orange;
 }
 .adv-card img{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
 }
+
 /* Tabs */
 
 .tab-content{
@@ -162,12 +165,10 @@
  .bullet{
      position: static;
      margin-top: 20px;
-     /* background-color: red; */
  }
 
  /* Progress bar */
  .prog-cont{
-     /* display: flex; */
      position: relative;
  }
  .prog-cont div{
@@ -193,10 +194,15 @@
      stroke-dashoffset: 290;
 
  }
- .main_cont{
-     position: relative;
+ /* star project section */
+ input{
+     border: none;
+     border-radius: 5px;
+     padding-left: 9px;
+     margin: 10px;
+     height: 35px;
+     width: 250px;
+
  }
- .main_cont .con1{
-     position: absolute;
-     z-index: -1;
- }
+ 
+ 
