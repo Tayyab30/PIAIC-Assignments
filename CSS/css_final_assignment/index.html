@@ -12,46 +12,7 @@
 
 <body>
   <header>
-    <!-- NavBar -->
-    <!-- <nav class="navbar navbar-expand-lg  navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse justify-content-end   navbar-collapse" id="navbarNavAltMarkup">
-          <ul class=" nav top-nav justify-content-end">
-            <li class="nav-item active ">
-              <a class="nav-link  active" aria-current="page" href="./index.html">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">Disabled</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="btn btn-warning">Warning</button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,13 +21,10 @@
         <div class="collapse  navbar-collapse  " id="navbarSupportedContent">
           <ul class="navbar-nav   ms-auto  mb-2 mb-lg-0">
             <li class="nav-item active ">
-              <a class="nav-link  active" aria-current="page" href="./index.html">Active</a>
+              <a class="nav-link  active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="#">Disabled</a>
@@ -90,7 +48,7 @@
 
 
     <!-- Slider -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
       <ol class="carousel-indicators ">
         <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
         <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
@@ -143,7 +101,7 @@
       </div>
       <div class="row sec1-card mt-5">
         <div class="col-lg-3 col-sm-6 col-12">
-          <img src="./images/slide-1.jpg" alt="">
+          <img src="./icons/bulb.png" alt="">
           <h3 class="mt-4">Hello World</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -151,7 +109,7 @@
           </p>
         </div>
         <div class="col-lg-3 col-sm-6 col-12">
-          <img src="./images/slide-1.jpg" alt="">
+          <img src="./icons/thumb.png" alt="">
           <h3 class="mt-4">Hello World</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -159,7 +117,7 @@
           </p>
         </div>
         <div class="col-lg-3 col-sm-6 col-12">
-          <img src="./images/slide-1.jpg" alt="">
+          <img src="./icons/clock-png.png" alt="">
           <h3 class="mt-4">Hello World</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -167,7 +125,7 @@
           </p>
         </div>
         <div class="col-lg-3 col-sm-6 col-12">
-          <img src="./images/slide-1.jpg" alt="">
+          <img class="bg-success" src="./icons/clients.png" alt="">
           <h3 class="mt-4">Hello World</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Quos culpa a odio amet.
@@ -180,10 +138,19 @@
   <!-- about us section -->
 
   <section>
+    <div class="row text_center">
+      <h1 class="text-dark m-auto  pt-4 ">About <span class="text-success">Us</span></h1>
+      <p class="  col-lg-6 col-sm-12 m-auto ">
+        Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
     <div class="container-fluid " >
         <div class="row " style="margin-top: 100px;">
             <div class="col-lg-6  d-flex justify-content-center m-0 p-0 align-items-center position-relative ">
-                <!-- <div class="  main-box"> -->
                     <div class="text-dark main-heading  " style="padding-left: 20px;" >
                         <h1>
                           A new model for
@@ -194,9 +161,6 @@
                         </p>
                         <button class="btn btn-primary">Shop</button>
                     </div>
-                      <!-- <div class=" d-lg-none d-block  position-absolute" style="top: 0;"> -->
-                          <!-- </div> -->
-                  <!-- </div> -->
                       <img src="./images/slide-1.jpg" class="img-fluid d-lg-none d-block      " style="height: auto; width: 100%; top: 0; z-index: -9999; object-fit: contain; filter: blur(8px);" alt="">     
             </div>
             <div class="col-lg-6 d-lg-block d-none pr-0 mr-0">
